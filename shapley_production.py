@@ -28,6 +28,7 @@ for shap_factor in range(num_factors):
         im2_vals = [x+1 for x in im2_vals]
         im2_vals.pop()
         # From the index, I infer the particular combo of values we are at by using some int division
+        # This is ugly but I couldnt easily find a better way to do this
         for j in range(num_factors):
             y = i // int(np.prod(im2_vals))
             im1_vals[num_factors - 1 - j] = y
