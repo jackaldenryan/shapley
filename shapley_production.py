@@ -53,19 +53,3 @@ if sum(shaps) != 0:
     normed_shaps = [float(i)/sum(shaps) for i in shaps]
     print("The normalized Shapley values are %s" % normed_shaps)
     print(np.sum(normed_shaps))
-
-
-
-
-
-
-
-
-
-# summing_arr = np.zeros(tuple([x+1 for x in vals]))
-
-# print(summing_arr.shape)
-
-# for i in np.nditer(summing_arr):
-#     print(i.index)
-    
