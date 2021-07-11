@@ -3,7 +3,7 @@ I derived the formula and then wrote code for computing the Shapley values for a
 
 <img src="images/generalized_production_func.png" alt="Production Function" width="400"/>
 
-<img src="images/shapley_production_formula.png" alt="Production Function" width="600"/>
+<img src="images/shapley_production_formula.png" alt="Production Function" width="800"/>
 
 
 
